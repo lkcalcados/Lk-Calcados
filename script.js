@@ -5,11 +5,11 @@ const pagina = window.location.pathname.split("/").pop();
 
 let nomeCatalogo = "Catálogo";
 
-if (pagina.includes("Casual")) nomeCatalogo = "Casual e Esportivo";
-else if (pagina.includes("Linha")) nomeCatalogo = "Tênis 1ª Linha";
-else if (pagina.includes("Importado")) nomeCatalogo = "Tênis Importado";
-else if (pagina.includes("Infantil")) nomeCatalogo = "Tênis Infantil";
-else if (pagina.includes("Premium")) nomeCatalogo = "Tênis Premium";
+if (pagina.includes("1")) nomeCatalogo = "Casual e Esportivo";
+else if (pagina.includes("2")) nomeCatalogo = "Tênis 1ª Linha";
+else if (pagina.includes("3")) nomeCatalogo = "Tênis Importado";
+else if (pagina.includes("4")) nomeCatalogo = "Tênis Infantil";
+else if (pagina.includes("5")) nomeCatalogo = "Tênis Premium";
 
 document.querySelectorAll(".whatsapp-btn").forEach(botao => {
   const produtoDiv = botao.closest(".produto");
