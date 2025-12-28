@@ -30,7 +30,7 @@ document.querySelectorAll(".whatsapp-btn").forEach(botao => {
   // 👉 cria o selo visual do item
   const badge = document.createElement("div");
   badge.className = "item-numero";
-  badge.innerText = `Item nº ${numeroItem}`;
+  badge.innerText = `${numeroItem}`;
 
   produtoDiv.prepend(badge);
 
