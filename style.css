@@ -127,6 +127,22 @@ footer a {
   font-weight: bold;
 }
 
+.assinatura {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.link-clean {
+  color: #0ccf85;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link-clean:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.8rem;
